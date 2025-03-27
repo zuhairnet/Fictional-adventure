@@ -7,3 +7,4 @@ jobs:
       - name: check out repository
         uses: actions/checkout@v4
       - run: echo "$(type hello_world.txt)"
+      - run: echo "$(ver)"
